@@ -248,3 +248,40 @@ tools like Jupyter Notebooks.
    computer science, algorithms, system programming, etc.). Teachers design
    lessons and projects that demonstrate the practical application of OCaml on
    these topics.
+
+## (U6) Researcher
+
+_Uses OCaml for short-term projects, often in scientific modeling or data
+analysis_
+
+Researchers use OCaml for scientific modeling, data analysis, and other
+short-term projects. They may be academics, researchers, or professionals
+working in various industries, including government and corporate sectors.
+
+Unlike Application Developers, they are not necessarily focused on long-term
+software stability and deployment. They may develop code for one-off analyses or
+rapidly-evolving models, where flexibility, iteration speed, and expressiveness
+are paramount. However, like Application Developers, they care about having an
+efficient working environment and access to resources to solve their unique
+problems.
+
+### Goals
+
+1. **Rapid Prototyping and Flexibility**: Researchers often work on projects
+   that require rapid prototyping and constant iteration. They value a
+   programming environment that allows for quick changes and easy testing.
+1. **Rich Scientific Libraries and Tools**: Access to libraries that support
+   scientific computation and data analysis is vital for Researchers. Similarly,
+   the ability to visualize data and analysis results is often crucial in their
+   work. Researchers typically work with large datasets, so they need efficient
+   tools for data manipulation, cleaning, and processing. They also often
+   require support for various data formats and databases.
+1. **Interoperability with Other Languages and Tools**: Since they often work
+   within a larger ecosystem of data science tools, interoperability with other
+   languages (like Python or R) and tools (like Jupyter notebooks or TensorFlow)
+   can be important. This might involve calling OCaml from these languages, or
+   vice versa, as well as integrating with other data science tools.
+1. **Reproducibility**: Ensuring that others can reproduce their work is often
+   crucial, particularly in an academic or research context. This involves
+   keeping track of dependencies, versions, and environments, as well as
+   documenting their work so that others can understand and replicate it.
