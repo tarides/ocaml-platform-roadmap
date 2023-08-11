@@ -49,7 +49,7 @@ performance.
 The OCaml Platform has served as the backbone of OCaml developer experience for
 over a decade. It intends to continue doing so for the next many decades. The
 OCaml Platform is designed as a collection of tools that follow a lifecycle.
-This design stems from the acknowledgment that there is a dual need for strong
+This design stems from the acknowledgement that there is a dual need for strong
 backward compatibility and the flexibility to rapidly evolve.
 
 We acknowledge that tools will emerge and become obsolete over time, and
@@ -76,3 +76,14 @@ This unified experience implies the existence of a single CLI that serves as a
 frontend for the Platform tools. On the editor, the implication is that
 development workflows should be available directly from within the editor,
 avoiding the need for users to resort to the command line.
+
+## (P6) The Platform is cohesive, yet extensible
+
+While striving for a unified experience (P5), we aim to support users who want
+to use tools that don't belong to the Platform.
+
+Users who want to use other tools in their workflows should be able to do so
+without feeling like second-class citizens.
+
+This can be achieved through plugin systems or implementations that stay
+general enough to support different tools.
